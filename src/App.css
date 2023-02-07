@@ -6,3 +6,59 @@ body {
   min-height: 100vh;
   background-color: #f4f6f9;
 }
+.header {
+  margin-top: 50px;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #00425a;
+  border: 1px solid #013041;
+  border-radius: 5px;
+}
+.header button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+.header button {
+  background-color: #00425a;
+  color: white;
+  border: 2px solid #03c988;
+  border-radius: 20px;
+}
+
+.header button:hover {
+  background-color: #03c988;
+  color: white;
+}
+.movie_lists {
+  margin-top: 40px;
+}
+.movie {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e9ecef;
+  border: 1px solid #3e473f;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.movie h3 {
+  color: #010101;
+  padding-left: 20px;
+}
+.movie p {
+  color: #010101;
+  padding-left: 20px;
+}
